@@ -296,14 +296,7 @@ cases. -->
         <execute>dmenu_run</execute>
       </action>
     </keybind>
-
-    <keybind key="C-space">
-      <action name="Execute">
-        <execute>gmrun</execute>
-      </action>
-    </keybind>
-
-<!-- keybinding for the screen lock -->
+    <!-- keybinding for the screen lock -->
     <keybind key="C-A-l">
       <action name="Execute">
         <execute>xlock</execute>
