@@ -34,9 +34,10 @@ the top left corner -->
     <!-- with Smart placement on a multi-monitor system, try to place new windows
 on: 'Any' - any monitor, 'Mouse' - where the mouse is, 'Active' - where
 the active window is -->
+    <primaryMonitor/>
   </placement>
   <theme>
-    <name>Surreal</name>
+    <name>TropicBomb</name>
     <titleLayout>NLDSIMC</titleLayout>
     <!--
 available characters are NDSLIMC, each can occur at most once.
@@ -86,18 +87,18 @@ D: omnipresent (on all desktops).
       <slant>Normal</slant>
       <!-- 'italic' or 'normal' -->
     </font>
-    <font place="OnScreenDisplay">
-      <name>Inconsolata</name>
-      <size>10</size>
-      <!-- font size in points -->
-      <weight>bold</weight>
-      <!-- 'bold' or 'normal' -->
-      <slant>normal</slant>
-      <!-- 'italic' or 'normal' -->
+    <font place="ActiveOnScreenDisplay">
+      <name/>
+    </font>
+    <font place="InactiveOnScreenDisplay">
+      <name>Sans</name>
+      <size>8</size>
+      <weight/>
+      <slant/>
     </font>
   </theme>
   <desktops>
-    <number>5</number>
+    <number>4</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>Desktop 1</name>
@@ -273,22 +274,12 @@ cases. -->
     </keybind>
     <keybind key="C-A-t">
       <action name="Execute">
-        <execute>terminator --geometry 900x600</execute>
-      </action>
-    </keybind>
-    <keybind key="C-A-x">
-      <action name="Execute">
-        <execute>xchat</execute>
+        <execute>gnome-terminal</execute>
       </action>
     </keybind>
     <keybind key="C-A-f">
       <action name="Execute">
         <execute>firefox</execute>
-      </action>
-    </keybind>
-    <keybind key="C-A-e">
-      <action name="Execute">
-        <execute>exaile</execute>
       </action>
     </keybind>
     <keybind key="W-space">
@@ -299,7 +290,7 @@ cases. -->
     <!-- keybinding for the screen lock -->
     <keybind key="C-A-l">
       <action name="Execute">
-        <execute>xlock</execute>
+        <execute>xscreensaver-command -lock</execute>
       </action>
     </keybind>
     <!-- Keybindings for menus -->
