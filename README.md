@@ -6,3 +6,8 @@ install lxpanel
 install obconf
 install conky
 install feh
+install tint2
+install scrot
+install dmenu
+install xscreensaver
+install xcompmgr

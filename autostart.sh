@@ -45,6 +45,8 @@ fi
 
 gnome-shell &
 lxpanel &
+tint2 &
+xscreensaver -no-splash &
 # feh --bg-scale /home/cstipkovic/Dropbox/Photos/wallpaper/photo-1467841957672-77f08ccd982b.jpeg &
 feh --bg-scale /home/cstipkovic/Dropbox/Photos/wallpaper/minimalistic-gray_00357503.png &
 conky &
