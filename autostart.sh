@@ -43,15 +43,8 @@ if which /usr/lib/openbox/xdg-autostart >/dev/null; then
   /usr/lib/openbox/xdg-autostart $DESKTOP_ENV
 fi
 
-davmail &
-feh --bg-scale /home/chalic/Pictures/wallpaper/openbox_wallpaper_by_ed1w2ard-d30tv1l.jpg
-# feh --bg-scale /home/chalic/Pictures/wallpaper/iPad_Background.png
-# feh --bg-scale /home/chalic/Pictures/wallpaper/moon.jpg
-# feh --bg-scale /home/chalic/Pictures/wallpaper/room.jpg
-# feh --bg-scale /home/chalic/Pictures/wallpaper/lion-wallpaper.jpg
-# feh --bg-scale /home/chalic/Pictures/wallpaper/tenis-lago.jpg &
-# feh --bg-scale /home/chalic/Pictures/wallpaper/goodwp.com_15326.jpg &
+gnome-shell &
+lxpanel &
+feh --bg-scale /home/cstipkovic/Dropbox/Photos/wallpaper/photo-1467841957672-77f08ccd982b.jpeg &
 conky &
-gnome-terminal &
-pidgin &
-thunderbird &
+gnome-terminal

@@ -37,7 +37,7 @@ the active window is -->
     <primaryMonitor/>
   </placement>
   <theme>
-    <name>TropicBomb</name>
+    <name>Natura</name>
     <titleLayout>NLDSIMC</titleLayout>
     <!--
 available characters are NDSLIMC, each can occur at most once.
@@ -98,7 +98,7 @@ D: omnipresent (on all desktops).
     </font>
   </theme>
   <desktops>
-    <number>4</number>
+    <number>2</number>
     <firstdesk>1</firstdesk>
     <names>
       <name>Desktop 1</name>
